@@ -118,9 +118,9 @@ Select * From usuarios;
 
 -- insertando datos en la tabla respuestas
 Insert Into respuestas(id, respuesta, usuario_id, pregunta_id) Values
-(1,'no',1,2),
+(1,'no',1,1),
 (2,'no',2,1),
-(3,'si',3,5),
+(3,'si',3,2),
 (4,'si',4,5),
 (5,'si',5,5);
 
